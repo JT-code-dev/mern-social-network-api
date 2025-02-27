@@ -1,0 +1,13 @@
+# Ignore compiled TypeScript files
+dist/
+
+# Ignore environment variables
+.env
+
+# Ignore Node modules
+node_modules/
+
+# Miscellaneous
+npm-debug.log
+yarn-error.log
+.DS_Store
