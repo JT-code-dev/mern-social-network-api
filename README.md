@@ -1,5 +1,18 @@
 # MERN Social Network API 🚀
 
+##walkthrough video:
+
+
+https://github.com/user-attachments/assets/cf426e2e-06b8-4c26-bf55-530c51d746b6
+
+
+##screenshots of successful deletion of friend:
+<img width="1275" alt="added friend" src="https://github.com/user-attachments/assets/c713084c-7658-4547-8df6-9ae49a462cb3" />
+<img width="1439" alt="deletion working" src="https://github.com/user-attachments/assets/002247c4-b1d1-449e-86c6-1f8611c4f005" />
+
+
+
+
 ## Description
 This project is a **backend API** for a social network application. It uses:
 - **MongoDB** as the database (NoSQL)
@@ -14,7 +27,7 @@ This API allows users to:
 - Add and remove friends from their friend list
 - Create thoughts (like posts)
 - Update and delete thoughts
-- Add and remove reactions to thoughts (like comments)
+- Add and remove thoughts 
 
 ---
 
