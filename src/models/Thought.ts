@@ -45,7 +45,7 @@ const ThoughtSchema = new Schema(
       type: String,
       required: true,
     },
-    reactions: [ReactionSchema], // 👈 Embedded reactions inside Thought
+    reactions: [ReactionSchema], //  Embed reactions inside Thought
   },
   {
     toJSON: { virtuals: true, getters: true },
@@ -53,7 +53,7 @@ const ThoughtSchema = new Schema(
   }
 );
 
-// ✅ Virtual property to count reactions
+// Virtual property to count reactions
 ThoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });

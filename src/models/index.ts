@@ -1,5 +1,5 @@
-import User from "./User.js";
-import Thought from "./Thought.js";
+import User from "./User";
+import Thought from "./Thought";
 
 export { User, Thought };
 
